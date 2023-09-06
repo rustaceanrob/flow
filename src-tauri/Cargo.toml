@@ -1,0 +1,38 @@
+[package]
+name = "primero"
+version = "0.0.0"
+description = "A Tauri App"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.4", features = [] }
+
+[dependencies]
+tauri = { version = "1.4", features = [ "fs-all", "dialog-open", "clipboard-write-text", "clipboard-read-text", "shell-open"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bitcoin = "0.30.1"
+dirs = "5.0"
+electrum-client = "0.17.0"
+reqwest = "0.11.18"
+dialog = "0.3.0"
+xyzpub = "0.3.0"
+regex = "1.9.3"
+walkdir = "2.3.3"
+rayon = "1.7.0"
+rand = "0.8.5"
+async-hwi = "0.0.10"
+turbosql = "0.8.0"
+miniscript = "10.0.0"
+confy = "0.5.1"
+
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]
