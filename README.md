@@ -12,7 +12,6 @@ I began this project before finding a load of Bitcoin related crates written in 
 ### Screenshots
 
 <img width="1195" alt="Screenshot 2023-10-05 at 7 26 07 AM" src="https://github.com/rustaceanrob/flow/assets/102320249/088b7c0e-2321-4880-8df1-39a699d7879f">
-<img width="1015" alt="Screenshot 2023-10-05 at 7 26 53 AM" src="https://github.com/rustaceanrob/flow/assets/102320249/b138ecd1-1575-4f57-a119-e0aea0648087">
 <img width="1196" alt="Screenshot 2023-10-05 at 7 24 49 AM" src="https://github.com/rustaceanrob/flow/assets/102320249/0f255fab-9f1f-48f2-83fa-b0e72955a84b">
 <img width="1012" alt="Screenshot 2023-10-05 at 7 27 22 AM" src="https://github.com/rustaceanrob/flow/assets/102320249/d37832ca-2e25-4644-82a7-7e3463e1f86d">
 <img width="1011" alt="Screenshot 2023-10-05 at 7 28 04 AM" src="https://github.com/rustaceanrob/flow/assets/102320249/f866fb48-b754-4f40-80c4-9e04c970b1d1">
